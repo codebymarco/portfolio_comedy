@@ -1,0 +1,91 @@
+.skills {
+  background-color: black;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.skills-top {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.skillspage-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.skillspage-container .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid dodgerblue;
+  border-radius: 20px;
+  color: white;
+  font-size: 0.8rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #0d0d0d;
+}
+
+.skillspage-container .box span {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 700px) {
+  .skills {
+    background-color: black;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .skills-top {
+    padding: 20px;
+    text-align: left;
+    color: white;
+    font-size: 2rem;
+  }
+
+  .skillspage-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .skillspage-container .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid dodgerblue;
+    border-radius: 20px;
+    color: white;
+    font-size: 2rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #0d0d0d;
+  }
+
+  .skillspage-container .box span {
+    display: flex;
+    align-items: center;
+  }
+
+  .skillspage-container .box:hover {
+    border: 1px solid aquamarine;
+    background-color: aquamarine;
+    border-radius: 20px;
+    letter-spacing: 0.2rem;
+    padding: 0px 20px;
+    transition: all 0.5s;
+  }
+}

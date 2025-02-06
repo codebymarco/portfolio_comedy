@@ -1,0 +1,111 @@
+nav {
+  background-color: black;
+  height: 10svh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 500;
+}
+
+nav img{
+  height: 60px;
+  width: 100px;
+  padding: 10px;
+}
+
+nav div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+nav div .desktop-links-link {
+  all: unset;
+  color: white;
+}
+
+nav .menu-icon {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+nav h1 {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#desktop-links {
+  display: none;
+}
+
+#desktop-links .desktop-links-link {
+  cursor: pointer;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+}
+
+#desktop-links .desktop-links-link:last-child {
+  border-right: none; /* Remove border-right from the last child */
+}
+
+#desktop-links .desktop-links-link:hover {
+  color: gray;
+}
+
+#mobile-links {
+  display: block;
+}
+
+#desktop-links .line {
+  height: 8px;
+  width: 8px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+@media (min-width: 700px) {
+  nav .menu-icon {
+    font-size: 3rem;
+    cursor: pointer;
+  }
+  nav h1 {
+    font-size: 2rem;
+  }
+  #mobile-links {
+    display: none;
+  }
+  #desktop-links {
+    display: flex;
+  }
+}
+
+.clickme {
+  background-color: dodgerblue;
+  color: white;
+  animation: pulse 2s infinite; /* Adds pulse animation */
+  text-decoration: none;
+  padding: 5px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1); /* Slightly enlarges the element */
+    opacity: 0.7; /* Lowers opacity to give a fade effect */
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
