@@ -13,6 +13,7 @@ import Indeed from "../pages/apps/Indeed";
 import Home from "../pages/Home";
 import Tours from "../pages/Tours";
 import SNL from "../pages/SNL";
+import Specials from "../pages/Specials";
 
 const Router = () => {
   return (
@@ -28,6 +29,7 @@ const Router = () => {
           <Route path="career" element={<Career />}></Route>
           <Route path="tours" element={<Tours />}></Route>
           <Route path="snl" element={<SNL />}></Route>
+          <Route path="specials" element={<Specials />}></Route>
         </Route>
 
         <Route path="/apps/app" element={<App />}></Route>

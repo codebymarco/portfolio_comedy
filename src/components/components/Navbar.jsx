@@ -39,6 +39,9 @@ const Navbar = () => {
           <Link className="desktop-links-link" to="/tours">
             tour
           </Link>
+          <Link className="desktop-links-link" to="/specials">
+            specials
+          </Link>
         </div>
         <CiMenuFries
           id="mobile-links"
