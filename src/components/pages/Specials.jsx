@@ -20,6 +20,60 @@ const specialsData = [
     platform: "hulu",
     videoId: "VWAhbaQFzRw",
   },
+  {
+    title: "Special #1",
+    description: "A hilarious hour of stand-up about life, family, and more.",
+    platform: "netflix",
+    videoId: "VWAhbaQFzRw",
+  },
+  {
+    title: "Special #2",
+    description: "Even more jokes, anecdotes, and comedic insight.",
+    platform: "amazon",
+    videoId: "VWAhbaQFzRw",
+  },
+  {
+    title: "Special #3",
+    description: "Live from a big arena, featuring crowd work and stories.",
+    platform: "hulu",
+    videoId: "VWAhbaQFzRw",
+  },
+  {
+    title: "Special #1",
+    description: "A hilarious hour of stand-up about life, family, and more.",
+    platform: "netflix",
+    videoId: "VWAhbaQFzRw",
+  },
+  {
+    title: "Special #2",
+    description: "Even more jokes, anecdotes, and comedic insight.",
+    platform: "amazon",
+    videoId: "VWAhbaQFzRw",
+  },
+  {
+    title: "Special #3",
+    description: "Live from a big arena, featuring crowd work and stories.",
+    platform: "hulu",
+    videoId: "VWAhbaQFzRw",
+  },
+  {
+    title: "Special #1",
+    description: "A hilarious hour of stand-up about life, family, and more.",
+    platform: "netflix",
+    videoId: "VWAhbaQFzRw",
+  },
+  {
+    title: "Special #2",
+    description: "Even more jokes, anecdotes, and comedic insight.",
+    platform: "amazon",
+    videoId: "VWAhbaQFzRw",
+  },
+  {
+    title: "Special #3",
+    description: "Live from a big arena, featuring crowd work and stories.",
+    platform: "hulu",
+    videoId: "VWAhbaQFzRw",
+  }
   // ... Add more specials as needed
 ];
 
