@@ -10,22 +10,18 @@ const Home = () => {
   return (
     <div>
       <Helmet>
-        <title>Software Developer Portfolio | Miguelmarco Ramcharan</title>
+        <title>Marco Ramcharan</title>
         <meta
           name="description"
-          content="Welcome to the portfolio of Miguelmarco Ramcharan. Explore projects, skills, and more by CodeByMarco."
+          content="Welcome to the portfolio of Marco Ramcharan. Explore projects, skills, and more by CodeByMarco."
         />
-        <meta name="author" content="Miguelmarco Ramcharan" />
+        <meta name="author" content="Marco Ramcharan" />
         <meta
           name="keywords"
-          content="marco ramcharan, codebymarco, software developer portfolio"
+          content="marco ramcharan, jokesbymarco"
         />
       </Helmet>
       <BannerTwo />
-      <AboutSection />
-      <Skills />
-      <Projects />
-      <Contact />
     </div>
   );
 };

@@ -20,12 +20,12 @@ const Navbar = () => {
       <div></div>
       <div>
         <div className="desktop-links" id="desktop-links">
-        <Link className="desktop-links-link" to="/">
+          <Link className="desktop-links-link" to="/">
             home
           </Link>
           <div className="line"></div>
           <Link className="desktop-links-link" to="/about">
-            about
+            snl
           </Link>
           <div className="line"></div>
           <Link className="desktop-links-link" to="/contact">
@@ -33,7 +33,11 @@ const Navbar = () => {
           </Link>
           <div className="line"></div>
           <Link className="desktop-links-link" to="/career">
-            career
+            about
+          </Link>
+          <div className="line"></div>
+          <Link className="desktop-links-link" to="/career">
+            tour
           </Link>
         </div>
         <CiMenuFries
