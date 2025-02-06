@@ -1,0 +1,70 @@
+/* Tours.css */
+
+/* Overall container styling */
+.tours-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  /* Main header styling */
+  .tours-container > h1,
+  div > h1 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  /* Section title styling */
+  .section h1 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 2.5rem;
+    color: #ff6f61;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Layout for each section’s container */
+  .section-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  /* Styling for each tour row (less boxy design) */
+  .section-box {
+    background-color: #fff;
+    border-bottom: 2px solid #ff6f61;
+    padding: 1.2rem 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for subtle interaction */
+  .section-box:hover {
+    transform: translateX(5px);
+  }
+  
+  /* Styling for each piece of tour data displayed in a row */
+  .section-box > div {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 1rem;
+    color: #333;
+    /* Optional: add a little spacing */
+    margin: 0 1rem;
+  }
+  
+  /* Special styling for the tickets label */
+  .section-box > div:last-child {
+    font-weight: bold;
+    color: #d73a49;
+  }
+  

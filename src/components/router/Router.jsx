@@ -11,6 +11,7 @@ import LinkBio from "../pages/apps/LinkBio";
 import Formio from "../pages/apps/Formio";
 import Indeed from "../pages/apps/Indeed";
 import Home from "../pages/Home";
+import Tours from "../pages/Tours";
 
 const Router = () => {
   return (
@@ -24,6 +25,7 @@ const Router = () => {
           <Route path="contact" element={<Contact />}></Route>
           <Route path="apps" element={<Projects />}></Route>
           <Route path="career" element={<Career />}></Route>
+          <Route path="tours" element={<Tours />}></Route>
         </Route>
 
         <Route path="/apps/app" element={<App />}></Route>
