@@ -12,6 +12,7 @@ import Formio from "../pages/apps/Formio";
 import Indeed from "../pages/apps/Indeed";
 import Home from "../pages/Home";
 import Tours from "../pages/Tours";
+import SNL from "../pages/SNL";
 
 const Router = () => {
   return (
@@ -26,13 +27,14 @@ const Router = () => {
           <Route path="apps" element={<Projects />}></Route>
           <Route path="career" element={<Career />}></Route>
           <Route path="tours" element={<Tours />}></Route>
+          <Route path="snl" element={<SNL />}></Route>
         </Route>
 
         <Route path="/apps/app" element={<App />}></Route>
         <Route path="/apps/portfoliohub" element={<PortfolioHub />}></Route>
         <Route path="/apps/linkbio" element={<LinkBio />}></Route>
-        <Route path="/apps/formio" element={< Formio/>}></Route>
-        <Route path="/apps/indeed" element={< Indeed/>}></Route>
+        <Route path="/apps/formio" element={<Formio />}></Route>
+        <Route path="/apps/indeed" element={<Indeed />}></Route>
       </Routes>
     </BrowserRouter>
   );

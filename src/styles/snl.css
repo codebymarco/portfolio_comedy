@@ -1,0 +1,60 @@
+.snl-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .snl-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .snl-intro {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .snl-journey {
+    margin-bottom: 2rem;
+  }
+  
+  .snl-journey h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .snl-journey p {
+    line-height: 1.6;
+  }
+  
+  .snl-videos h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .video-list {
+    display: grid;
+    grid-gap: 2rem;
+  }
+  
+  .video-item h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  /* Responsive iframe container */
+  .video-responsive {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 ratio */
+    height: 0;
+  }
+  
+  .video-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  

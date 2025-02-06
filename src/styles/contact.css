@@ -1,99 +1,77 @@
-.contact {
-  background-color: black;
-  min-height: 90vh;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 20px;
-  align-items: center;
+.contact-wrapper {
+  background-color: #000;
+  color: #fff;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
 }
 
-.contact-top {
-  padding: 20px;
+.contact-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+  font-size: 2rem;
   text-align: center;
-  color: white;
+}
+
+.contact-sections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+  margin-bottom: 2rem;
+}
+
+.contact-column {
+  max-width: 300px;
+}
+
+.column-heading {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.sub-heading {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.contact-item {
+  margin-bottom: 1.5rem;
+}
+
+.name {
   font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
 }
 
-.contact-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  width: 90%;
-  gap: 13px;
+.email a,
+.foundation-link a {
+  color: #fff;
+  text-decoration: none;
 }
 
-.contact-container .box {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 0.8rem;
-  padding: 20px 10px;
-  border: 1px solid dodgerblue;
-  border-radius: 20px;
-  color: white;
-  cursor: pointer;
-  background-color: #0d0d0d;
-
+.email a:hover,
+.foundation-link a:hover {
+  text-decoration: underline;
 }
 
-.contact-container .box div {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+.phone {
+  font-size: 0.95rem;
+  color: #ccc;
 }
 
-.contact-container .box:hover {
-  color: grey;
+.contact-social-icons {
+  text-align: center;
 }
 
+.contact-social-icons a {
+  margin: 0 0.5rem;
+  color: #fff;
+  text-decoration: none;
+}
 
-@media (min-width: 700px) {
-  .contact {
-    background-color: black;
-    min-height: 90vh;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 20px;
-    align-items: center;
-  }
-  
-  .contact-top {
-    padding: 20px;
-    text-align: left;
-    color: white;
-    font-size: 2rem;
-    width: 100%;
-  }
-  
-  .contact-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 80%;
-    gap: 13px;
-  }
-  
-  .contact-container .box {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 25px;
-    padding: 20px 10px;
-    border: 1px solid dodgerblue;
-    border-radius: 20px;
-    color: white;
-    cursor: pointer;
-  }
-  
-  .contact-container .box div {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .contact-container .box:hover {
-    color: grey;
-  }
+.contact-social-icons a:hover {
+  text-decoration: underline;
 }
